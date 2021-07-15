@@ -1,0 +1,17 @@
+{
+  "name": "async-programming-promises",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "secondary": "cross-env PORT=3001 nodemon ./index.js"
+  },
+  "dependencies": {
+    "cross-env": "^6.0.3",
+    "express": "^4.17.1",
+    "json-server": "^0.15.1"
+  },
+    "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
